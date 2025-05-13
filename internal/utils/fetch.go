@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func GetHTMLFromURL(url string) (string, error) {
+func GetDataFromURL(url string) (string, error) {
 	resp, err := http.Get(url)
 	if err != nil {
 		return "", err

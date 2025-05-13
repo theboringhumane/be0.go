@@ -4,7 +4,7 @@ GOBUILD=$(GOCMD) build
 GOTEST=$(GOCMD) test
 GOGET=$(GOCMD) get
 GOMOD=$(GOCMD) mod
-BINARY_NAME=kori
+BINARY_NAME=be0
 BINARY_UNIX=$(BINARY_NAME)_unix
 
 # Build parameters
